@@ -1,0 +1,83 @@
+
+html {
+    font-size: 62.5%;   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: orangered;
+    padding: 1.3rem;
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 2.5rem; 
+    color: black;  
+    display: inline-block;
+    margin-right: 5rem;
+    font-family: 'Saiyan Sans', sans-serif;
+}
+
+.barra img {
+    width: 16rem;
+    height: 5.5rem;
+    object-fit: contain;
+}
+
+.contenedores {
+    display: inline-flex;
+}
+
+.contenedores img {
+    width: 20rem;
+    height: 12rem;
+    object-fit: fill;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+
+.informacion {
+    background-color: orangered;
+    margin-bottom: 3rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+}
+
+.contenedor {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Saiyan Sans', sans-serif;
+}
+
+.foother {
+    background-color: orangered;
+    padding: 1.0rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    display: inline-flex;
+}
+
+.logos img {
+    width: 5rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+.img-foother img{
+    width: 17rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+
+
+ 
