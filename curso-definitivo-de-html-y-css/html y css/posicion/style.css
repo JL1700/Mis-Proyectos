@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    background-color: rgba(11, 94, 97, 0.248);
+
+}
+
+main {
+    width: 50vw;
+    height: 60vw;
+    background-color: rosybrown;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    border-radius: 20px;
+    max-height: 500px;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 500px;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+    background-color: pink;
+    width: 118px;
+    border-radius: 5px;
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+}
+
+.contenedor figure img {
+    object-fit: cover;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 98px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+.texto {
+    font-size: 1.3rem;
+    font-family: monospace;
+    color:beige;
+    text-align: center;
+}
+.audio {
+    color: rgba(11, 94, 97, 0.248);
+}
